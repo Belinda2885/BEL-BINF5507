@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Belinda2885 <n01739297@humber.ca>"]
+channels = ["conda-forge"]
+name = "BEL-BINF5507"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.3,<3.14"
+pip = ">=25.1.1,<26"
+ipykernel = ">=6.29.5,<7"
+pandas = ">=2.2.3,<3"
+numpy = ">=2.2.5,<3"
+scikit-learn = ">=1.6.1,<2"
+seaborn = ">=0.13.2,<0.14"
+matplotlib = ">=3.10.3,<4"
